@@ -3,8 +3,11 @@ using namespace std;
 
 #define show(x) cout<< #x <<" is "<< x <<"\n"
 #define pb(t) push_back(t)
-#define len(t) t.size())
+#define len(t) t.size()
 #define all(t) t.begin(),t.end()
+#define fs first
+#define sc second
+#define mp(x, y) make_pair((x), (y))
 
 typedef long long LL;
 typedef pair<int, int> PII;

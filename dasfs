@@ -1,0 +1,23 @@
+/*
+  1. always check for unintialized vector.
+ 
+  2. priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>> > pq; for djikstra
+ 
+  3. check for constrained properly
+ 
+  4. 10^8 operations per second
+ 
+  5. Every even integer greater than 2 can be expressed as the sum of two primes.
+ 
+  6. odd number can be expresses in sum of two prime number only if (n-2) is prime.
+ 
+  If n = 12, the time complexity can be O(n!).
+  If n = 25, the time complexity can be O(2n).
+  If n = 100, the time complexity can be O(n4).
+  If n = 500, the time complexity can be O(n3).
+  If n = 10^4, the time complexity can be O(n2).
+  If n = 10^6, the time complexity can be O(n log n).
+  If n = 10^8, the time complexity can be O(n).
+  If n > 10^8, the time complexity can be O(log n) or O(1).
+ 
+*/
